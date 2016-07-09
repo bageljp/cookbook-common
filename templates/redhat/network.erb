@@ -1,0 +1,5 @@
+NETWORKING=yes
+HOSTNAME=<%= node['common']['hostname'] %>
+<% if node['common']['gateway'] != nil && node['common']['gateway'] != "" -%>
+GATEWAY=<%= node['common']['gateway'] %>
+<% end -%>

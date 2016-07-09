@@ -1,0 +1,14 @@
+default['common']['hostname'] = node['fqdn']
+default['common']['gateway'] = nil
+default['common']['timezone'] = "Asia/Tokyo"
+default['common']['locale'] = "ja_JP.UTF-8"
+default['common']['amazon']['access_key'] = ""
+default['common']['amazon']['secret_key'] = ""
+default['common']['amazon']['region'] = "ap-northeast-1"
+default['common']['log']['rotate'] = "31"
+default['common']['users'] = ""
+default['common']['uids'] = ""
+default['common']['groups'] = ""
+default['common']['gids'] = ""
+default['common']['sudoers'] = ""
+default['common']['ssh']['authorized_keys'] = ""

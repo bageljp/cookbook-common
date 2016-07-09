@@ -1,0 +1,6 @@
+ZONE="<%= node['common']['timezone'] %>"
+<% if node['common']['timezone'] == "UTC" %>
+UTC=true
+<% else %>
+UTC=false
+<% end %>
